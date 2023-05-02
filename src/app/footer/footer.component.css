@@ -1,0 +1,71 @@
+
+.footer-page{
+    width: 100%;
+    background-color: #000000;
+    padding: 0px 0px 0px 0px ;
+}
+
+.footer-page .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.footer-page .group-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-page .group-1 .box figure img{
+    width: 100px;
+}
+
+.footer-page .group-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.footer-page .group-1 .box p{
+    color: #efefef; 
+    margin-bottom: 10px;
+}
+.footer-page .group-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #1d1e1f;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+.footer-page .group-1 .red-social a:hover{
+    color: rgb(33, 36, 36);
+}
+.footer-page .group-2{
+    background-color: #262627;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.footer-page .group-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .footer-page .group-1{
+        width: 100%;
+        grid-template-columns: repeat(1 1fr);
+        grid-gap: 50px;
+        padding: 35px 0px;
+
+    }
+}
