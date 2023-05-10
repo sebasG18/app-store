@@ -4,14 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     background-color: #333;
+    background-color: #444242;
 }
 
 body{
     margin: 0 auto;
     max-width: 1200px;
     font-family: 'Lato';
-    color: #ffffff;
+    color: #020202;
 }
 
 .icon-cart{
