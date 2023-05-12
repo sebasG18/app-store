@@ -5,12 +5,14 @@ import { E404Component } from './components/e404/e404.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
+import { PolicyComponent } from './components/policy/policy.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   {path: 'productos', component: ProductosComponent},
   {path: 'contactos', component: ContactosComponent},
-  {path: 'ofertas', component:OfertasComponent}, 
+  {path: 'ofertas', component:OfertasComponent},
+  {path: 'policy', component:PolicyComponent}, 
 { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: E404Component }
 ];
