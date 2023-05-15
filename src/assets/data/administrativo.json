@@ -1,0 +1,36 @@
+{
+  "administrativo": [
+    {
+      
+      "first_name": "Roberto",
+      "email": "ener@jgfo.gmail",
+      "password": "1234",
+      "phone" : "0986758356"
+      
+    },
+    {
+      "first_name": "Julio",
+      "email": "juli@vares.gmail",
+      "password": "12345",
+      "phone" : "0995847362"
+    },
+    {
+      "first_name": "Lioner",
+      "email": "lio@mesaa.gmail",
+      "password": "123456",
+      "phone" : "0986753564"
+    },
+    {
+      "first_name": "Kauro",
+      "email": "kau@mitom.gmail",
+      "password": "1234567",
+      "phone" : "0986753245"
+    },
+    {
+      "first_name": "Erling",
+      "email": "erling@halaa.gmail",
+      "password": "12345678",
+      "phone" : "0986723446"
+    }
+  ]
+}
