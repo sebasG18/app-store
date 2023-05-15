@@ -1,0 +1,28 @@
+{
+    "Inventario": [
+        {
+            "id": 1,
+            "nombre": "Camiseta Blanca",
+            "Precio": "$22",
+            "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/camiseta%20blanca.jpg?alt=media&token=8d992aa8-d1dd-4e64-8eb1-968dc9553ae0"
+        },
+        {
+            "id": 1,
+            "nombre": "Camiseta Celeste",
+            "Precio": "$22",
+            "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/camiseta%20celeste.jpg?alt=media&token=ff43e410-ed12-4f8c-b35a-89f983931d28"
+        },
+        {
+            "id": 1,
+            "nombre": "Camiseta Rosa",
+            "Precio": "$20",
+            "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/camiseta%20rosa.jpg?alt=media&token=d2cc7d1a-d86f-44d6-a20c-072cf38748af"
+        },
+        {
+            "id": 1,
+            "nombre": "Camiseta Negra",
+            "Precio": "$20",
+            "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/camiseta.jpg?alt=media&token=5deb7156-4649-4f72-8daa-b762560f6f8d"
+        }
+
+]}

@@ -36,51 +36,22 @@
 
     </header>
     <div class="container-items">
-        <div class="item">
+        <div class="item" *ngFor="let products of dataProducts">
             <figure>
-                <img src="assets/images/camisetas/camiseta blanca.jpg" alt="camiseta-blanca">
+                <img src="{{products.image}}" alt="camiseta-blanca">
             </figure>
             <div class="info-product">
-                <h2>Camiseta Blanca</h2>
-                <p class="price">22$</p>
+                <h2>{{products.nombre}}</h2>
+                <p class="price">{{products.Precio}}</p>
                 <button>Añadir al carrito</button>
             </div>
         </div>
-        <div class="item">
-            <figure>
-                <img src="assets/images/camisetas/camiseta celeste.jpg " alt="camiseta-celeste">
-            </figure>
-            <div class="info-product">
-                <h2>Camiseta Celeste</h2>
-                <p class="price">22$</p>
-                <button>Añadir al carrito</button>
-            </div>
-        </div>
-        <div class="item">
-            <figure>
-                <img src="assets/images/camisetas/camiseta rosa.jpg" alt="camiseta-rosa">
-            </figure>
-            <div class="info-product">
-                <h2>Camiseta Rosa</h2>
-                <p class="price">20$</p>
-                <button>Añadir al carrito</button>
-            </div>
-        </div>
-        <div class="item">
-            <figure>
-                <img src="assets/images/camisetas/camiseta.jpg" alt="camiseta-negra">
-            </figure>
-            <div class="info-product">
-                <h2>Camiseta Negra</h2>
-                <p class="price">20$</p>
-                <button>Añadir al carrito</button>
-            </div>
-        </div>
+
         <div class="item">
             <a href="ofertas">
                 <button>
                     <figure>
-                        <img src="assets/images/descuento.jpg" alt="camiseta-negra">
+                        <img src="assets/images/descuento.jpg">
                     </figure>
                 </button>
             </a>
