@@ -12,6 +12,7 @@ import { ContactosComponent } from './components/contactos/contactos.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { PolicyComponent } from './components/policy/policy.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ClientesComponent } from './components/clientes/clientes.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductosComponent,
     ContactosComponent,
     OfertasComponent,
-    PolicyComponent
+    PolicyComponent,
+    ClientesComponent
   ],
   imports: [
     BrowserModule,
