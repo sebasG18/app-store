@@ -7,12 +7,14 @@ import { ContactosComponent } from './components/contactos/contactos.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { PolicyComponent } from './components/policy/policy.component';
 import { ClientesComponent } from './components/clientes/clientes.component';
+import { AdministracionComponent } from './components/administracion/administracion.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   {path: 'productos', component: ProductosComponent},
   {path: 'contactos', component: ContactosComponent},
   {path: 'ofertas', component:OfertasComponent},
   {path: 'policy', component:PolicyComponent}, 
+  {path: 'administracion', component:AdministracionComponent}, 
 { path: '', redirectTo: 'home', pathMatch: 'full' },
 {path: "clientes", component:ClientesComponent},
   { path: '**', component: E404Component }

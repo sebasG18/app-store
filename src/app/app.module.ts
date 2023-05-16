@@ -13,6 +13,7 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { PolicyComponent } from './components/policy/policy.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ClientesComponent } from './components/clientes/clientes.component';
+import { AdministracionComponent } from './components/administracion/administracion.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ClientesComponent } from './components/clientes/clientes.component';
     ContactosComponent,
     OfertasComponent,
     PolicyComponent,
-    ClientesComponent
+    ClientesComponent,
+    AdministracionComponent
   ],
   imports: [
     BrowserModule,
