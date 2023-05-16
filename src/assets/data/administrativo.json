@@ -1,40 +1,53 @@
 {
   "administrativo": [
     {
-      "id":"1",
+      "id": "1",
       "first_name": "Roberto",
       "email": "ener@jgfo.gmail",
       "password": "1234",
-      "phone" : "0986758356"
-      
+      "phone": "0986758356"
     },
     {
-      "id":"2",
+      "id": "2",
       "first_name": "Julio",
       "email": "juli@vares.gmail",
       "password": "12345",
-      "phone" : "0995847362"
+      "phone": "0995847362"
     },
     {
-      "id":"3",
+      "id": "3",
       "first_name": "Lioner",
       "email": "lio@mesaa.gmail",
       "password": "123456",
-      "phone" : "0986753564"
+      "phone": "0986753564"
     },
     {
-      "id":"4",
+      "id": "4",
       "first_name": "Kauro",
       "email": "kau@mitom.gmail",
       "password": "1234567",
-      "phone" : "0986753245"
+      "phone": "0986753245"
     },
     {
-      "id":"5",
+      "id": "5",
       "first_name": "Erling",
       "email": "erling@halaa.gmail",
       "password": "12345678",
-      "phone" : "0986723446"
+      "phone": "0986723446"
+    },
+    {
+      "first_name": "Adrian",
+      "email": "adrian@gmail.com",
+      "phone": "09099392",
+      "contraseña": "123456",
+      "id": "epu6_wk"
+    },
+    {
+      "first_name": "Andres",
+      "email": "antonio@gmail.com",
+      "phone": "09099392",
+      "contraseña": "1452554",
+      "id": "6547ny-"
     }
   ]
 }

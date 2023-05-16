@@ -7,24 +7,23 @@
         <form action="">
             <p>
               <label>Nombre</label>
-              <input type="text" name="Nombre">
+              <input type="text" name="Nombre" #first_name>
             </p>
             <p>
               <label>Correo</label>
-              <input type="email" name="correo">
+              <input type="email" name="correo" #email>
             </p>
             <p>
               <label> Telefono</label>
-              <input type="tel" name="Telefono">
+              <input type="tel" name="Telefono" #phone>
             </p>
             <p>
               <label for="">Contraseña</label>
-              <input type="password" name="password">
+              <input type="password" name="password" #password>
             </p>
           <p class="block">
-            <button type="submit">
-              Enviar
-            </button>  
+            <button type="submit" class="btn btn-primary" (click)="guardarCliente(first_name.value, email.value, 
+            phone.value, password.value)">Guardar</button>
           </p>  
         </form> 
         <div class="junto-mapa">

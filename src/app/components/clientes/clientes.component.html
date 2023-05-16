@@ -26,23 +26,30 @@
     <form action="/action_page.php">
       <div class="mb-3 mt-3">
         <label for="Id">Id:</label>
-        <input type="text" class="form-control" id="Id" placeholder="Ingrese Id">
+        <input type="text" class="form-control" id="Id" placeholder="Ingrese Id" #id>
       </div>
       <div class="mb-3">
         <label for="nom">Nombre:</label>
-        <input type="text" class="form-control" id="nom" placeholder="Ingrese nombre">
+        <input type="text" class="form-control" id="nom" placeholder="Ingrese nombre" #first_name>
       </div>
       <div class="mb-3">
         <label for="email">Email:</label>
-        <input type="text" class="form-control" id="email" placeholder="Ingrese su correo">
+        <input type="text" class="form-control" id="email" placeholder="Ingrese su correo" #email>
       </div>
       <div class="mb-3">
         <label for="tel">Teléfono:</label>
-        <input type="text" class="form-control" id="tel" placeholder="Ingrese telefono">
+        <input type="text" class="form-control" id="tel" placeholder="Ingrese telefono" #phone>
       </div>
       <div class="form-check mb-3">
       </div>
-      <button type="submit" class="btn btn-primary">Ingresar</button>
+      <button type="submit" class="btn btn-primary" (click)="guardarCliente(id.value, 
+    first_name.value, email.value, phone.value)">Guardar</button>
+    
+    
+    <button type="submit" class="btn btn-primary" (click)="actualizarProductos (id.value, 
+    first_name.value, email.value, phone.value)">Actualizar</button>
+
+    <button type="submit" class="btn btn-primary" (click)="eliminarCliente (id.value)">Borrar</button>
     </form>
   </div>
   <br>
