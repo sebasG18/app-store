@@ -69,5 +69,11 @@
       "contraseña": "123456789",
       "id": "eeY3Kr6"
     }
-  ]
+  ],
+  "login": [
+    {
+        "user": "Sebas",
+        "pass": "1234"
+    }
+]
 }

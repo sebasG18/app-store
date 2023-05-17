@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ClientesComponent } from './components/clientes/clientes.component';
 import { AdministracionComponent } from './components/administracion/administracion.component';
 import { AdministracionProductosComponent } from './components/administracion-productos/administracion-productos.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AdministracionProductosComponent } from './components/administracion-pr
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,14 +11,14 @@
 <body> <br>
     <div class="container ">
         <h2>Ingreso a administración</h2>
-        <form action="/action_page.php">
+        <form  (ngSubmit)="login()">
           <div class="mb-3 mt-3">
             <label for="usuario">Usuario:</label>
-            <input type="text" class="form-control" id="usuario" placeholder="Ingrese usuario">
+            <input type="text" class="form-control" id="usuario" placeholder="Ingrese usuario" name="user" [(ngModel)]="user">
           </div>
           <div class="mb-3">
             <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pass" [(ngModel)]="pass ">
           </div>
           <div class="form-check mb-3">
           </div>

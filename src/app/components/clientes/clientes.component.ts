@@ -35,8 +35,7 @@ export class ClientesComponent {
 
 
   eliminarCliente(id: string){
-    const ide:number=parseInt(id)
-    this.servicio.deleteClientes(ide).subscribe(u=>{})
+    this.servicio.deleteClientes(id).subscribe(u=>{})
      
 
     }

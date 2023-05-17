@@ -24,7 +24,7 @@ putClientes(user: any, id: string): Observable<any>{
 
 }
 //METODO DELETE
-  deleteClientes(id:number) : Observable <any>{
+  deleteClientes(id:string) : Observable <any>{
     this.API_CLIENTES=`${this.API_CLIENTES}/${id}`
     return this.http.delete(this.API_CLIENTES)
   }
