@@ -15,5 +15,16 @@ export class ProductosService {
  postProductos(user: any): Observable<any>{
   return this.http.post(this.API_PRODUCTOS, user)
 }
+//METODO PUT/UPDATE
+putProductos(user: any, id: string): Observable<any>{
+    
+  this.API_PRODUCTOS=`${this.API_PRODUCTOS}/${id}`
+  return this.http.put(this.API_PRODUCTOS, user)
 
+}
+//METODO DELETE
+  deleteProductos(id:string) : Observable <any>{
+    this.API_PRODUCTOS=`${this.API_PRODUCTOS}/${id}`
+    return this.http.delete(this.API_PRODUCTOS)
+  }
 }

@@ -8,6 +8,7 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { PolicyComponent } from './components/policy/policy.component';
 import { ClientesComponent } from './components/clientes/clientes.component';
 import { AdministracionComponent } from './components/administracion/administracion.component';
+import { AdministracionProductosComponent } from './components/administracion-productos/administracion-productos.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   {path: 'productos', component: ProductosComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'ofertas', component:OfertasComponent},
   {path: 'policy', component:PolicyComponent}, 
   {path: 'administracion', component:AdministracionComponent}, 
+  {path: 'administracion-productos', component:AdministracionProductosComponent}, 
 { path: '', redirectTo: 'home', pathMatch: 'full' },
 {path: "clientes", component:ClientesComponent},
   { path: '**', component: E404Component }

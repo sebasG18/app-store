@@ -14,6 +14,7 @@ import { PolicyComponent } from './components/policy/policy.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ClientesComponent } from './components/clientes/clientes.component';
 import { AdministracionComponent } from './components/administracion/administracion.component';
+import { AdministracionProductosComponent } from './components/administracion-productos/administracion-productos.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AdministracionComponent } from './components/administracion/administrac
     OfertasComponent,
     PolicyComponent,
     ClientesComponent,
-    AdministracionComponent
+    AdministracionComponent,
+    AdministracionProductosComponent
   ],
   imports: [
     BrowserModule,

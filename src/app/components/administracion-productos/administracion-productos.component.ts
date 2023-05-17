@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import { ProductosService } from 'src/app/servicios/productos/productos.service';
 
 @Component({
-  selector: 'app-productos',
-  templateUrl: './productos.component.html',
-  styleUrls: ['./productos.component.css']
+  selector: 'app-administracion-productos',
+  templateUrl: './administracion-productos.component.html',
+  styleUrls: ['./administracion-productos.component.css']
 })
-export class ProductosComponent {
-
+export class AdministracionProductosComponent {
   constructor(private servicio: ProductosService){}
   dataProducts: any;
 
