@@ -37,6 +37,12 @@
       "first_name": "sebastian guzman cuasquer",
       "email": "ritopoto29@gmail.com",
       "phone": "0990366673"
+    },
+    {
+      "id": "8",
+      "first_name": "Naji",
+      "email": "najie@hotmail.com",
+      "phone": "7456576457"
     }
   ],
   "login": [
@@ -45,5 +51,11 @@
       "pass": "1234"
     }
   ],
-  "Carrito": []
+  "Carrito": [
+    {
+      "id": "4",
+      "nombre": "Camiseta Negra",
+      "precio": "22 "
+    }
+  ]
 }

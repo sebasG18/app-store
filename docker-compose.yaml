@@ -1,0 +1,19 @@
+version: '3'
+services: 
+  deploy: 
+    build:
+      context: .
+      dockerfile: docker-Angular/Dockerfile
+    restart: always
+    image: app-web
+    ports:
+    - "127.0.0.1:8000:80"
+
+  json-server:
+    build:
+      context: .
+      dockerfile: docker-json/Dockerfile
+    restart: always
+    image: imagename
+    ports:
+    - "3000:3000" 
