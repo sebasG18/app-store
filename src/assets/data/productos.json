@@ -1,15 +1,9 @@
 {
   "Inventario": [
     {
-      "id": 1,
-      "nombre": "Camiseta Blanca",
-      "Precio": "$22",
-      "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/camiseta%20blanca.jpg?alt=media&token=8d992aa8-d1dd-4e64-8eb1-968dc9553ae0"
-    },
-    {
       "id": 4,
       "nombre": "Camiseta Negra",
-      "Precio": "$20",
+      "precio": "22 ",
       "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/camiseta.jpg?alt=media&token=5deb7156-4649-4f72-8daa-b762560f6f8d"
     },
     {
@@ -17,63 +11,32 @@
       "nombre": "Buso azul",
       "precio": "$22",
       "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/buso%20azul.jpg?alt=media&token=ffcb33a6-64ef-4be1-bd9b-e7a3ae4e3bf4"
+    },
+    {
+      "id": "5",
+      "nombre": "Buso Rosa",
+      "precio": "22 ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/buso%20rosa.jpg?alt=media&token=7237ab06-179c-4ec1-a6b9-4d9ef195b6b3"
     }
   ],
   "administrativo": [
     {
-      "id": "1",
-      "first_name": "Roberto",
-      "email": "ener@jgfo.gmail",
-      "password": "1234",
-      "phone": "0986758356"
+      "id": "9SeZ-bj",
+      "first_name": "ZEBOLLA",
+      "email": "ritopoto29@gmail.com",
+      "phone": "0983928725"
     },
     {
-      "id": "2",
-      "first_name": "Julio",
-      "email": "juli@vares.gmail",
-      "password": "12345",
-      "phone": "0995847362"
-    },
-    {
-      "id": "3",
-      "first_name": "Lioner",
-      "email": "lio@mesaa.gmail",
-      "password": "123456",
-      "phone": "0986753564"
-    },
-    {
-      "id": "4",
-      "first_name": "Kauro",
-      "email": "kau@mitom.gmail",
-      "password": "1234567",
-      "phone": "0986753245"
-    },
-    {
-      "first_name": "Adrian",
-      "email": "adrian@gmail.com",
-      "phone": "09099392",
-      "contraseña": "123456",
-      "id": "epu6_wk"
-    },
-    {
-      "first_name": "Andres",
-      "email": "antonio@gmail.com",
-      "phone": "09099392",
-      "contraseña": "1452554",
-      "id": "6547ny-"
-    },
-    {
-      "first_name": "Jose",
-      "email": "jose@gmail.com",
-      "phone": "0967896897",
-      "contraseña": "123456789",
-      "id": "eeY3Kr6"
+      "id": "NSALb7x",
+      "first_name": "ZEBOLLA",
+      "email": "ritopoto29@gmail.com",
+      "phone": "0983928725"
     }
   ],
   "login": [
     {
-        "user": "Sebas",
-        "pass": "1234"
+      "user": "Sebas",
+      "pass": "1234"
     }
-]
+  ]
 }
