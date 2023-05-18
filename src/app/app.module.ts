@@ -16,6 +16,7 @@ import { ClientesComponent } from './components/clientes/clientes.component';
 import { AdministracionComponent } from './components/administracion/administracion.component';
 import { AdministracionProductosComponent } from './components/administracion-productos/administracion-productos.component';
 import { FormsModule } from '@angular/forms';
+import { CarritoComponent } from './components/carrito/carrito.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FormsModule } from '@angular/forms';
     PolicyComponent,
     ClientesComponent,
     AdministracionComponent,
-    AdministracionProductosComponent
+    AdministracionProductosComponent,
+    CarritoComponent
   ],
   imports: [
     BrowserModule,

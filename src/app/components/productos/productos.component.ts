@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { CarritoService } from 'src/app/servicios/carrito/carrito.service';
 import { ProductosService } from 'src/app/servicios/productos/productos.service';
 
 @Component({
@@ -8,7 +10,7 @@ import { ProductosService } from 'src/app/servicios/productos/productos.service'
 })
 export class ProductosComponent {
 
-  constructor(private servicio: ProductosService){}
+  constructor(private servicioP: ProductosService, private servicioC:CarritoService, private router:Router){}
   dataProducts: any;
 
   guardarProductos(id:string, nombre:string, precio:string, image:string){
@@ -19,7 +21,7 @@ export class ProductosComponent {
       "image": image
     }
 
-    this.servicio.postProductos(temp).subscribe(u =>{})
+    this.servicioP.postProductos(temp).subscribe(u =>{})
 
   }
 
@@ -31,19 +33,31 @@ export class ProductosComponent {
       "image": image
     }
 
-    this.servicio.putProductos(temp, id).subscribe(u=>{})
+    this.servicioP.putProductos(temp, id).subscribe(u=>{})
   }
 
 
   eliminarProductos(id: string){
-    this.servicio.deleteProductos(id).subscribe(u=>{})
+    this.servicioP.deleteProductos(id).subscribe(u=>{})
      
 
     }
   dataProductos:any={};
   ngOnInit(){
-    this.servicio.getProcutos().subscribe(products => {
+    this.servicioP.getProcutos().subscribe(products => {
       this.dataProducts=products
     })
+  }
+  guardarCarrito(id: string, nombre: string, precio: string) {
+    const temp = {
+      "id": id,
+      "nombre": nombre,
+      "precio": precio,
+    }
+
+    this.servicioC.postCarrito(temp).subscribe(u => { })
+
+    this.router.navigate(['/carrito']);
+
   }
 }

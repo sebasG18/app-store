@@ -19,6 +19,7 @@ export class AdministracionProductosComponent {
     }
 
     this.servicio.postProductos(temp).subscribe(u =>{})
+    location.reload();
 
   }
 
@@ -31,11 +32,13 @@ export class AdministracionProductosComponent {
     }
 
     this.servicio.putProductos(temp, id).subscribe(u=>{})
+    location.reload();
   }
 
 
   eliminarProductos(id: string){
     this.servicio.deleteProductos(id).subscribe(u=>{})
+    location.reload();
      
 
     }

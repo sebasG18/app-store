@@ -39,6 +39,5 @@ this.servicio.getAdministracion().subscribe(n =>{
         
       }
     })
-    
   }
 }

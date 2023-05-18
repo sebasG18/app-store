@@ -8,8 +8,8 @@
     },
     {
       "id": "2",
-      "nombre": "Buso azul",
-      "precio": "$22",
+      "nombre": "Buzo negro",
+      "precio": "22",
       "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/buso%20azul.jpg?alt=media&token=ffcb33a6-64ef-4be1-bd9b-e7a3ae4e3bf4"
     },
     {
@@ -21,16 +21,22 @@
   ],
   "administrativo": [
     {
-      "id": "9SeZ-bj",
+      "id": "NSALb7x",
       "first_name": "ZEBOLLA",
       "email": "ritopoto29@gmail.com",
       "phone": "0983928725"
     },
     {
-      "id": "NSALb7x",
-      "first_name": "ZEBOLLA",
+      "id": "d44PgtN",
+      "first_name": "Sebastian Guzman",
       "email": "ritopoto29@gmail.com",
       "phone": "0983928725"
+    },
+    {
+      "id": "iHwVDL6",
+      "first_name": "sebastian guzman cuasquer",
+      "email": "ritopoto29@gmail.com",
+      "phone": "0990366673"
     }
   ],
   "login": [
@@ -38,5 +44,6 @@
       "user": "Sebas",
       "pass": "1234"
     }
-  ]
+  ],
+  "Carrito": []
 }

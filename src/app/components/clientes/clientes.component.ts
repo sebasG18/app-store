@@ -19,6 +19,7 @@ export class ClientesComponent {
     }
 
     this.servicio.postClientes(temp).subscribe(u =>{})
+    location.reload();
 
   }
 
@@ -31,18 +32,21 @@ export class ClientesComponent {
     }
 
     this.servicio.putClientes(temp, id).subscribe(u=>{})
+    location.reload();
   }
 
 
   eliminarCliente(id: string){
     this.servicio.deleteClientes(id).subscribe(u=>{})
-     
+    location.reload();
 
     }
   dataClientes:any={};
   ngOnInit(){
     this.servicio.getClientes().subscribe(clientes => {
       this.dataClientes=clientes;
+      
+
     })
   }
 }
