@@ -17,21 +17,15 @@
       "nombre": "Buso Rosa",
       "precio": "22 ",
       "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/buso%20rosa.jpg?alt=media&token=7237ab06-179c-4ec1-a6b9-4d9ef195b6b3"
+    },
+    {
+      "id": "6",
+      "nombre": "Buzo Naranja",
+      "precio": "22",
+      "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/buso%20naranja.jpg?alt=media&token=4228976c-c353-4539-aa96-b1a4e0063ea2"
     }
   ],
   "administrativo": [
-    {
-      "id": "NSALb7x",
-      "first_name": "ZEBOLLA",
-      "email": "ritopoto29@gmail.com",
-      "phone": "0983928725"
-    },
-    {
-      "id": "d44PgtN",
-      "first_name": "Sebastian Guzman",
-      "email": "ritopoto29@gmail.com",
-      "phone": "0983928725"
-    },
     {
       "id": "iHwVDL6",
       "first_name": "sebastian guzman cuasquer",
@@ -40,9 +34,36 @@
     },
     {
       "id": "8",
-      "first_name": "Naji",
-      "email": "najie@hotmail.com",
-      "phone": "7456576457"
+      "first_name": "Najieb",
+      "email": "narmijos@itsqmet.edu.ec",
+      "phone": "0967896897"
+    },
+    {
+      "first_name": "Julio",
+      "email": "jose@gmail.com",
+      "phone": "0967896897",
+      "contraseña": "1111",
+      "id": "uKKExkb"
+    },
+    {
+      "first_name": "Julio",
+      "email": "jose@gmail.com",
+      "phone": "0967896897",
+      "contraseña": "1111",
+      "id": "lkyg3ER"
+    },
+    {
+      "first_name": "Julio",
+      "email": "jose@gmail.com",
+      "phone": "0967896897",
+      "contraseña": "1111",
+      "id": "cNWTHKh"
+    },
+    {
+      "id": "1",
+      "first_name": "Jesus",
+      "email": "jesus@gmail.com",
+      "phone": "09778566666"
     }
   ],
   "login": [
@@ -53,8 +74,13 @@
   ],
   "Carrito": [
     {
-      "id": "4",
-      "nombre": "Camiseta Negra",
+      "id": "2",
+      "nombre": "Buzo negro",
+      "precio": "22"
+    },
+    {
+      "id": "5",
+      "nombre": "Buso Rosa",
       "precio": "22 "
     }
   ]

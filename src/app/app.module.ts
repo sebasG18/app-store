@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +17,9 @@ import { AdministracionComponent } from './components/administracion/administrac
 import { AdministracionProductosComponent } from './components/administracion-productos/administracion-productos.component';
 import { FormsModule } from '@angular/forms';
 import { CarritoComponent } from './components/carrito/carrito.component';
+import { EffectsModule } from '@ngrx/effects';
+import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { CarritoComponent } from './components/carrito/carrito.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    EffectsModule.forRoot([]),
+    StoreModule.forRoot({}, {}),
+    StoreDevtoolsModule.instrument({ name: "TEST" })
   ],
   providers: [],
   bootstrap: [AppComponent]
