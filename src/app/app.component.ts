@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import { Store } from '@ngrx/store';
+import { LoadItems } from './state/actions/items.actions';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-store';
+  constructor(private store:Store<any>){
+
+  }
+  ngOnInit(): void {
+    this.store.dispatch(LoadItems())
+  }
 }

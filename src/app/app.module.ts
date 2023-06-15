@@ -20,6 +20,7 @@ import { CarritoComponent } from './components/carrito/carrito.component';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { itemsReducer } from './ws_client/store/ws.reducer';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,9 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     HttpClientModule,
     FormsModule,
     EffectsModule.forRoot([]),
-    StoreModule.forRoot({}, {}),
+    StoreModule.forRoot({
+      estadoDeItems: itemsReducer
+    }),
     StoreDevtoolsModule.instrument({ name: "TEST" })
   ],
   providers: [],
