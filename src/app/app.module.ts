@@ -21,6 +21,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { itemsReducer } from './ws_client/store/ws.reducer';
+import { ROO_REDUCERS } from './state/actions/app.state';
 
 @NgModule({
   declarations: [
@@ -44,9 +45,7 @@ import { itemsReducer } from './ws_client/store/ws.reducer';
     HttpClientModule,
     FormsModule,
     EffectsModule.forRoot([]),
-    StoreModule.forRoot({
-      estadoDeItems: itemsReducer
-    }),
+    StoreModule.forRoot(ROO_REDUCERS),
     StoreDevtoolsModule.instrument({ name: "TEST" })
   ],
   providers: [],
