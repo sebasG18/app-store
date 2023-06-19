@@ -10,7 +10,7 @@ import { delay } from "rxjs";
 const data =[
     {
         "id": 4,
-        "nombre": "Camiseta Negra",
+        "nombre": "Camiseta Negras",
         "precio": "22 ",
         "image": "https://firebasestorage.googleapis.com/v0/b/app-web-b76bc.appspot.com/o/camiseta.jpg?alt=media&token=5deb7156-4649-4f72-8daa-b762560f6f8d"
       },
