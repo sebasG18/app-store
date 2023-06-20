@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { LoadItems } from './state/actions/items.actions';
+import { LoadItems, LoadedItems } from './state/actions/items.actions';
 import { Observable } from 'rxjs';
 import { selectListItems, selectLoading } from './state/actions/items.selectors';
 import { ShowCaseService } from './state/actions/store.service';
+import { ItemModel } from './core/models/item.interface';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,14 @@ export class AppComponent {
   }
   ngOnInit(): void {
     this.loading$=this.store.select(selectLoading)
+
     this.store.dispatch(LoadItems())
+
+    this.ShowCaseService.getDataApi().subscribe((response:ItemModel[])=>{
+      this.store.dispatch(LoadedItems(
+        {items:response}
+      ))
+    })
+ 
   }
 }

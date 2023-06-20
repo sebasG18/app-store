@@ -8,6 +8,6 @@ export const LoadItems = createAction(
 
  export const LoadedItems=createAction(
     "[Item List] loaded success",
-    props<{items:ItemModel}>()
+    props<{items:ItemModel[]}>()
  )
  
