@@ -22,6 +22,7 @@ import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { itemsReducer } from './ws_client/store/ws.reducer';
 import { ROO_REDUCERS } from './state/actions/app.state';
+import { ItemsEffects } from './ws_client/store/ws.effects';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { ROO_REDUCERS } from './state/actions/app.state';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    EffectsModule.forRoot([]),
+    EffectsModule.forRoot([ItemsEffects]),
     StoreModule.forRoot(ROO_REDUCERS),
     StoreDevtoolsModule.instrument({ name: "TEST" })
   ],
